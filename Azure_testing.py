@@ -39,8 +39,10 @@ def close_connection(cursor, connection):
      connection.close()
 
 
-es = establish_string("ishasandbox1.database.windows.net", "ishaSandbox", "isha.gadkari", "Bhopal123456")
-connection = establish_connection(es)
-cursor = create_cursor(connection)
-adding_table("C:\\Users\\ishag\\Documents\\Azure_testing\\Query2.sql", cursor, connection)
-close_connection(cursor, connection)
+if __name__ == "__main__":
+
+    es = establish_string("ishasandbox1.database.windows.net", "ishaSandbox", "isha.gadkari", "Bhopal123456")
+    connection = establish_connection(es)
+    cursor = create_cursor(connection)
+    adding_table("C:\\Users\\ishag\\Documents\\Azure_testing\\Query2.sql", cursor, connection)
+    close_connection(cursor, connection)
