@@ -1,6 +1,6 @@
 ## PyODBC SQL Database Interaction
 
-This Python script provides functions for interacting with a SQL database using the `pyodbc` library. It includes functions for establishing a database connection, creating a cursor, adding tables, and inserting rows into existing tables.
+This Python script provides functions for interacting with a Azure SQL database using the `pyodbc` library. It includes functions for establishing a database connection, creating a cursor, adding tables, and inserting rows into existing tables.
 
 ### Prerequisites
 
